@@ -47,25 +47,23 @@ ng generate component dashboard
 
 #### Git Repository Setup
 To host your code, keep track of changes. Be the VCS
-```
+
 Setup a git repository. Commit your code there. Make sure that everything is working on your local. To read about setting up a new repository see link.
 
 https://help.github.com/en/github/getting-started-with-github/create-a-repo
-```
+
 
 #### Heroku Account Creation
 To create, maintain and deploy your git repo to a server.
 
-```
 https://www.heroku.com/
 
 Create an account for free. No need to add credit cards or anything.
-```
+
 
 #### Create a new App corresponding to the website.
-```
 Dashboard > New > Create new app > 
-```
+
 ![Heroku New App Page](documentations/images/heroku_start_new_app.png?raw=true "Heroku New App Page")
 
 #### Setting Up Heroku CLI
