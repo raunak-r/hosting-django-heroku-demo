@@ -87,7 +87,8 @@ Dashboard > New > Create new app >
 4. Setup Logs. Logs save lives. Only they can help you see what's wrong.
 	> heroku logs -a APPNAME --tail -n 10
 
-5. 
+5. Create Procfile in your code (Specifically for Django)
+	> web: gunicorn PROJECTNAME.wsgi --log-file -
 ```
 
 #### Connecting Heroku with Git Repo
