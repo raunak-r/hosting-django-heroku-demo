@@ -1,6 +1,6 @@
-## Setting Up
+# Setting Up
 
-### Backend-Dependencies
+## Backend-Dependencies
 ```
 Via Anaconda Prompt:
 	> virtualenv . (Requires Python 3)
@@ -8,11 +8,12 @@ Via Anaconda Prompt:
 
 	> Inside Master folder
 	> pip install -r requirements.txt
+	> Assign Static Folder in settings.py
 	> python backend\manage.py runserver
 
 ```
 
-### Frontend-Dependencies
+## Frontend-Dependencies
 ```
 1. THE PROJECT ECOSYSTEM (npm, bower)
 	<!-- Install Node Js -->
@@ -41,3 +42,19 @@ Via Anaconda Prompt:
 <!-- Other Commands -->
 ng generate component dashboard
 ```	
+
+## Setting it up for Cloud Deployment
+
+#### Heroku Account Creation
+```
+https://www.heroku.com/
+
+Create an account for free. No need to add credit cards or anything.
+```
+
+#### Create a new App corresponding to the website.
+```
+Dashboard > New > Create new app > 
+```
+![Heroku New App Page](relative/documentations/images/heroku_start_new_app.png?raw=true "Heroku New App Page")
+
