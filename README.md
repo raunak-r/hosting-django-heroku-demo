@@ -66,7 +66,7 @@ Create an account for free. No need to add credit cards or anything.
 ```
 Dashboard > New > Create new app > 
 ```
-![Heroku New App Page](relative/documentations/images/heroku_start_new_app.png?raw=true "Heroku New App Page")
+![Heroku New App Page](documentations/images/heroku_start_new_app.png?raw=true "Heroku New App Page")
 
 #### Setting Up Heroku CLI
 ```
