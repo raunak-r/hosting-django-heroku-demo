@@ -4,6 +4,7 @@
 *.pyc
 *.pwc
 */.ipynb_checkpoints
+*debug.log
 
 # compiled output
 /dist
