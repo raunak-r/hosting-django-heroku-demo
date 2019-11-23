@@ -45,7 +45,17 @@ ng generate component dashboard
 
 ## Setting it up for Cloud Deployment
 
+#### Git Repository Setup
+To host your code, keep track of changes. Be the VCS
+```
+Setup a git repository. Commit your code there. Make sure that everything is working on your local. To read about setting up a new repository see link.
+
+https://help.github.com/en/github/getting-started-with-github/create-a-repo
+```
+
 #### Heroku Account Creation
+To create, maintain and deploy your git repo to a server.
+
 ```
 https://www.heroku.com/
 
@@ -58,3 +68,26 @@ Dashboard > New > Create new app >
 ```
 ![Heroku New App Page](relative/documentations/images/heroku_start_new_app.png?raw=true "Heroku New App Page")
 
+#### Setting Up Heroku CLI
+```
+1. https://devcenter.heroku.com/articles/heroku-cli#verifying-your-installation
+
+	Download it.
+	Verify it.
+		> heroku --version
+
+2. Login
+	> heroku login -i
+
+3. Install Some Basic Required Plugins
+	> heroku plugins:install heroku-builds
+	> heroku plugins:install heroku-repo
+	> 
+
+4. Setup Logs. Logs save lives. Only they can help you see what's wrong.
+	> heroku logs -a APPNAME --tail -n 10
+
+5. 
+```
+
+#### Connecting Heroku with Git Repo
