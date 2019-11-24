@@ -1,1 +1,1 @@
-web: gunicorn --preload tryHosting.wsgi --log-file -
+web: sh -c 'cd ./backend/ && exec gunicorn --preload tryHosting.wsgi --log-file -'
