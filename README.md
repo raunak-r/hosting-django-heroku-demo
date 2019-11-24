@@ -31,7 +31,9 @@ Via Anaconda Prompt:
 	> > ng --version (TO VERIFY)
 
 3. SETUP DEPENDENCY MANAGERS FOR PROJECT
-	> cd frontend
+	> IF CREATING FOR FIRST TIME
+		> ng create app_name
+		> rename folder to frontend
 	> npm install (from package.json)
 
 	<!-- INFO  -->
@@ -48,26 +50,26 @@ ng generate component dashboard
 
 ## Setting it up for Cloud Deployment
 
-#### Git Repository Setup
+## Git Repository Setup
 To host your code, keep track of changes. Be the VCS
 Setup a git repository. Commit your code there. Make sure that everything is working on your local. To read about setting up a new repository see link.
 
 https://help.github.com/en/github/getting-started-with-github/create-a-repo
 
 
-#### Heroku Account Creation
+## Heroku Account Creation
 To create, maintain and deploy your git repo to a server.
 Create an account for free. No need to add credit cards or anything.
 https://www.heroku.com/
 
 
-#### Create a new App corresponding to the website.
+## Create a new App corresponding to the website.
 Dashboard > New > Create new app
 
 ![Heroku New App Page](documentations/images/heroku_start_new_app.png?raw=true "Heroku New App Page")
 
 
-#### Setting Up Heroku CLI and a few support files
+## Setting Up Heroku CLI and a few support files
 ```
 1. https://devcenter.heroku.com/articles/heroku-cli#verifying-your-installation
 
@@ -116,10 +118,16 @@ Dashboard > New > Create new app
 	    'localhost',
 	]
 
+7. Other helpful Commands:
+	Renaming an App
+	> heroku apps:rename newname --app oldname
+
+	See Heroku Usage
+	> heroku ps -a APP_NAME
 ```
 
 
-#### Connecting Heroku with Git Repo
+## Connecting Heroku with Git Repo
 Shown below is the dashboard once you're in your app.
 ![Dashboard](documentations/images/dashboard.png?raw=true "Dashboard")
 
@@ -134,7 +142,26 @@ No need to choose any pipelines for now.
 You can see the build logs either in terminal or under the Activity Tab.
 
 
-#### Deployment Successfull
+## Deployment Successfull
 If everything has gone right, then you should see the below in your logs.
 
 ![Successfull](documentations/images/build_success.png?raw=true "Successfull")
+
+
+# Review Notes
+1. Seperate Backend and Frontend git/heroku repos for each?
+How to have same Procfile for both if not seperate?
+
+2. How to CRUD on database on hosted code and save it from server to local.
+
+3. So, basic understanding is that. 
+Backend on 1 git repo
+Frontend on another git repo.
+
+Heroku app for backend code.
+	db should be setup by backend Heroku app.
+Another heroku app for frontend.
+
+Inside frontend the url's should point to internet backend url.
+
+For testing on local, local hosts should be mentioned in backend and frontend also.
