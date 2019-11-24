@@ -1,4 +1,5 @@
 # Setting Up
+[tryHosting A-Z Guide](https://raunak-r.github.io/tryHosting/)
 
 ## Backend-Dependencies
 ```
@@ -54,13 +55,13 @@ ng generate component dashboard
 To host your code, keep track of changes. Be the VCS
 Setup a git repository. Commit your code there. Make sure that everything is working on your local. To read about setting up a new repository see link.
 
-https://help.github.com/en/github/getting-started-with-github/create-a-repo
+[Starting GIT](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
 
 
 ## Heroku Account Creation
 To create, maintain and deploy your git repo to a server.
 Create an account for free. No need to add credit cards or anything.
-https://www.heroku.com/
+[Starting Heroku](https://www.heroku.com/)
 
 
 ## Create a new App corresponding to the website.
@@ -142,13 +143,13 @@ No need to choose any pipelines for now.
 You can see the build logs either in terminal or under the Activity Tab.
 
 
-## Deployment Successfull
+## Deployment Successful
 If everything has gone right, then you should see the below in your logs.
 
-![Successfull](documentations/images/build_success.png?raw=true "Successfull")
+![Successful](documentations/images/build_success.png?raw=true "Successful")
 
 
-# Review Notes
+# TODO Review Notes
 1. Seperate Backend and Frontend git/heroku repos for each?
 How to have same Procfile for both if not seperate?
 
@@ -165,3 +166,5 @@ Another heroku app for frontend.
 Inside frontend the url's should point to internet backend url.
 
 For testing on local, local hosts should be mentioned in backend and frontend also.
+
+TODO: [Deploy Angular on Heroku](https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147)
