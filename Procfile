@@ -1,1 +1,1 @@
-web: gunicorn tryHosting.wsgi --log-file -
+web: gunicorn --preload tryHosting.wsgi --log-file -

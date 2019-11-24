@@ -89,3 +89,11 @@ Dashboard > New > Create new app >
 
 
 #### Connecting Heroku with Git Repo
+
+<!-- TODO
+1. procfile should be in backend.
+2. see how containers are made for both angular and django
+
+
+
+ -->
