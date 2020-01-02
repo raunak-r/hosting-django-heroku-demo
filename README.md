@@ -147,6 +147,8 @@ You can see the build logs either in terminal or under the Activity Tab.
 If everything has gone right, then you should see the below in your logs.
 
 ![Successful](documentations/images/build_success.png?raw=true "Successful")
+[Deployed Backend Code](https://try-hosting-backend.herokuapp.com/home/)
+
 
 
 # TODO Review Notes
